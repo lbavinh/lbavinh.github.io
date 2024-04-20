@@ -1,0 +1,76 @@
+:root{ --background: #F5F6F2; --dominant-color: #97A97C; --primary-color: #718355; --secondary-color: #CFE1B9; --background-text: #000000; --dominant-text: #000000; --primary-text: #FFFFFF; --secondary-text: #000000; --success-text: #FFFFFF; --danger-text: #FFFFFF; --warning-text: #000000; --info-text: #FFFFFF;
+    --white-bg: #FFFFFF;
+	--switch-bg: #F5F5F6;
+    --switch-circle-bg: #FFD371;
+    
+    --icon-sun: #997F44;
+    --icon-moon: var(--muted-text);}
+	
+    :root[data-theme="light"] {
+	--page-bg: #fff;
+
+	--muted-text: #B1B0B5;
+
+	--logo-fill: var(--primary-text);
+
+	--input-bg: #F5F5F6;
+	--input-bg-hover: #ecebed;
+	--input-border-focus: var(--muted-text);
+	--input-text: var(--primary-text);
+	--input-placeholder: var(--muted-text);
+
+	--button-text: #D19361;
+	--button-text-hover: #faf4ef;
+
+	--switch-bg: #F5F5F6;
+	--switch-circle-bg: #FFD371;
+	--switch-circle-pos: 0.11rem;
+	--icon-sun: #997F44;
+	--icon-moon: var(--muted-text);
+
+	--icon-socials: var(--primary-text);
+	--icon-socials-hover: #77757e;	
+
+    --navbar:  rgba(27, 31, 10, 0.06);
+    --navbar-collapse: rgba(255, 255, 255, 0.8);
+    --nav-hover: rgba(27, 31, 10, 0.06);
+    --nav-dropdown: rgba(27, 31, 10, 0.04);
+    --title: #232323;
+    --soc-item: #f7f7f7;
+	--border: #fff;
+}
+:root[data-theme="dark"] {
+	--page-bg: #3C3A47;
+
+	--primary-text: #F5F5F6;
+	--muted-text: #77757E;
+	--background-text: #ffffff;
+	--logo-fill: var(--primary-text);
+
+	--input-bg: #2D2C35;
+	--input-bg-hover: #24232B;
+	--input-border-focus: #1D1C23;
+	--input-text: var(--primary-text);
+	--input-placeholder: var(--muted-text);
+
+	--button-text: #D19361;
+	--button-text-hover: #faf4ef;
+
+	--switch-bg: var(--input-bg);
+	--switch-circle-bg: #7190FF;
+	--switch-circle-pos: 2rem;
+	--icon-sun: var(--muted-text);
+	--icon-moon: #DCE3FF;
+
+	--icon-socials: var(--primary-text);
+	--icon-socials-hover: #B1B0B5;	
+
+	
+}
+:root {
+	--default-border-radius: 8px;
+	--default-transition: color .3s ease-in-out, background-color .3s ease-in-out, border-color .3s ease-in-out, fill .3s ease-in-out, transform .3s ease-in-out;
+}
+body, h1, h2, h3, h4, h5, h6, p, a {
+    font-family: 'Comfortaa', sans-serif !important;
+    }
