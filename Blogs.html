@@ -624,7 +624,11 @@ color: var(--dominant-text)!important;
       forwards;
   animation-timeline: scroll(root);
 }
-
+@media (max-width: 767px) {
+  .progress {
+    top: 56px;
+  }
+}
 @keyframes scaleProgress {
   0% {
     transform: scaleX(0);
